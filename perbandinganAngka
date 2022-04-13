@@ -1,0 +1,20 @@
+package ulangancuyy;
+
+import java.util.Scanner;
+public class perbandinganangkaBesar {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int bil1;
+        int bil2;
+        System.out.println("Masukkan bilangan pertama :");
+        bil1 = input.nextInt();
+        System.out.println ("Masukkan bilangan kedua : ");
+        bil2 = input.nextInt();
+        
+        if (bil1>bil2){
+            System.out.println("Bilangan terbesar : "+bil1);
+        }else{
+            System.out.println("Bilangan terbesar : "+bil2);
+        }
+    }
+}
